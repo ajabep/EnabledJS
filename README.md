@@ -18,15 +18,15 @@ This system use Browser.php to detect the browser, which is which is licensed un
 
 ## Adding / Customizing ##
 
-<div style="background-color:#FCF8F2;margin:20px;padding:20px;border-left:3px solid #F0AD4E">
-    <p style="color: #F0AD4E;margin-top: 0px;margin-bottom: 5px;font-size: 18px">Warning</p>
-    <p>Remember to put the name and the two letter code of the language in the array stored in the <code>$languagesNames</code> variable present at the line 931 in the production version, and at the line 9 in the development version, as the following model:</p>
-    <pre><code>            $languagesNames=array(
-                            {LANGUAGE'S CODE #1}=>{NAME POSTED},
-                            {LANGUAGE'S CODE #2}=>{NAME POSTED},
-                            {LANGUAGE'S CODE #3}=>{NAME POSTED}
-                        );</code></pre>
-</div>
+### Warning ###
+Remember to put the name and the two letter code of the language in the array stored in the `$languagesNames` variable present at the line 931 in the production version, and at the line 9 in the development version, as the following model:
+
+    $languagesNames=array(
+        {LANGUAGE'S CODE #1}=>{NAME POSTED},
+        {LANGUAGE'S CODE #2}=>{NAME POSTED},
+        {LANGUAGE'S CODE #3}=>{NAME POSTED}
+    );
+
 For those who have the development version, go to line 15.
 
 For those who have the production version, go to line 937.
