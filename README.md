@@ -3,8 +3,7 @@ EnabledJS
 
 ## Presentation ##
 
-EnabledJS is a standalone system. It's a system which displays the customer how to enable JavaScript according to his browser and his language.
-Fully customizable, it is easy to add a language, a browser, the handling for such or such browser, etc ...
+EnabledJS is a standalone system. It's a system which displays the customer how to enable JavaScript according to his browser and his language. Fully customizable, it is easy to add a language, a browser, the handling for such or such browser, etc ...
 
 ## Licenses ##
 
@@ -15,6 +14,10 @@ The source code is is licensed under a [MIT License](creativecommons.org/license
 
 This system is design with Bootstrap, which is licensed under a [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 This system use Browser.php to detect the browser, which is which is licensed under a [GNU GPL](https://github.com/cbschuld/Browser.php/blob/master/lib/Browser.php#L11-L22).
+
+## Sources ##
+
+You can find the sources on [Cloud9](https://c9.io/ajabep/enabled_js) and on [Github](https://github.com/ajabep/EnabledJS).
 
 ## Adding / Customizing ##
 
