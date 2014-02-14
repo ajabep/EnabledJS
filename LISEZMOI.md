@@ -17,6 +17,10 @@ Le système est designé avec Boostrap, mis à disposition sous [licence MIT](ht
 
 Ce système utilise Browser.php pour détecter quel est le navigateur du client, lequel est mis à disposition selon la licence [GNU GPL](https://github.com/cbschuld/Browser.php/blob/master/lib/Browser.php#L11-L22).
 
+## Sources ##
+
+Vous pouvez retrouver les sources sur [Cloud9](https://c9.io/ajabep/enabled_js) et sur [Github](https://github.com/ajabep/EnabledJS).
+
 ## Ajout / Personnalisation ##
 
 ### Attention ###
