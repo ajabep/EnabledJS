@@ -19,15 +19,16 @@ Ce système utilise Browser.php pour détecter quel est le navigateur du client,
 
 ## Ajout / Personnalisation ##
 
-<div style="background-color:#FCF8F2;margin:20px;padding:20px;border-left:3px solid #F0AD4E">
-    <p style="color: #F0AD4E;margin-top: 0px;margin-bottom: 5px;font-size: 18px">Attention</p>
-    <p>Pensez bien à mettre le nom et le code à deux lettre de la langue dans la tableau stocké dans la variable <code>$languagesNames</code>, présent à la ligne 931 dans la version de production, et à la ligne 9 pour la version de développement, selon le modèle suivant :</p> 
-    <pre><code>            $languagesNames=array(
-                            {CODE DE LA LANGUE N°1}=>{NOM AFFICHÉ},
-                            {CODE DE LA LANGUE N°2}=>{NOM AFFICHÉ},
-                            {CODE DE LA LANGUE N°3}=>{NOM AFFICHÉ}
-                        );</code></pre>
-</div>
+### Attention ###
+
+Pensez bien à mettre le nom et le code à deux lettre de la langue dans la tableau stocké dans la variable `$languagesNames`, présent à la ligne 931 dans la version de production, et à la ligne 9 pour la version de développement, selon le modèle suivant :
+
+    $languagesNames=array(
+        {CODE DE LA LANGUE N°1}=>{NOM AFFICHÉ},
+        {CODE DE LA LANGUE N°2}=>{NOM AFFICHÉ},
+        {CODE DE LA LANGUE N°3}=>{NOM AFFICHÉ}
+    );
+
 Pour ceux ayant la version de développement, allez à la ligne 15.
 
 Pour ceux ayant la version de production, allez à la ligne 937.
