@@ -1,0 +1,12 @@
+# Order allow,deny
+# Deny from all
+
+#############################################################
+#                 Durant la durée des tests                 #
+#############################################################
+
+AuthType Basic
+AuthName "En cours de création. Interdis aux petits curieux !"
+AuthUserFile /home/u967254766/public_html/.htpasswd
+AuthGroupFile /home/u967254766/public_html/.htgroup
+Require group webmasters
