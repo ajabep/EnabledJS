@@ -77,7 +77,8 @@
                             </li>
                             <li><a href="http://ajabep.tk/contact/"><?php echo $arrayBrowser[$languageUser]['texts']['contact']; ?></a></li>
                             <li><a href="https://c9.io/ajabep/enabled_js"><?php echo $arrayBrowser[$languageUser]['texts']['sourceC9']; ?></a></li>
-                            <!--li><a href="https://github.com/ajabep/enabledjs">Source on GitHub</a></li-->
+                            <li><a href="https://github.com/ajabep/EnabledJS"><?php echo $arrayBrowser[$languageUser]['texts']['sourceGithub']; ?></a></li>
+                            <li><a href="https://www.dareboost.com/fr/report/5304ffabe4b037e2f79c6008"><?php echo $arrayBrowser[$languageUser]['texts']['Dareboost']; ?></a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
