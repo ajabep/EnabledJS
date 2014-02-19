@@ -50,7 +50,9 @@ The array that you just created must be as follows :
                 'readMore'          =>  {TEXT REQUESTING TO READ INSTRUCTIONS FOR OTHER BROWSERS},
                 'click2zoom'        =>  {TEXT REQUESTING TO CLICK ON THE IMAGES TO ENLARGE},
                 'alt'               =>  {ALTERNATIVE TEXT GENERAL FOR IMAGES},
-                'sourceC9'          =>  {TEXT FOR THE 'SOURCES ON CLOUD9' TAB}
+                'sourceC9'          =>  {TEXT REQUESTING TO READ THE SOURCES ON CLOUD9},
+                'sourceGithub'      =>  {TEXT REQUESTING TO READ THE SOURCES ON GITHUB},
+                'Dareboost'         =>  {TEXT REQUESTING TO SEE PERFORMANCES ON DAREBOOST}
             ),
         {KEY CORRESPONDING TO BROWSER}=>array(
                 'name'          =>  {NAME OF BROWSER},
