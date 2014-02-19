@@ -25,7 +25,9 @@ $arrayBrowser=array(
                         'readMore'          =>  'Lire les instructions des autres navigateurs',
                         'click2zoom'        =>  '(Cliquez pour agrandir)',
                         'alt'               =>  'illustration',
-                        'sourceC9'          =>  'Sources sur Cloud9'
+                        'sourceC9'          =>  'Sources sur Cloud9',
+                        'sourceGithub'      =>  'Sources sur Github',
+                        'Dareboost'         =>  'Voir les performances'
                     ),
                 Browser::BROWSER_FIREFOX.'a22'=>array( // a22 = after 22
                         'name'          =>  'Firefox',
