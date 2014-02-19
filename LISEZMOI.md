@@ -54,7 +54,9 @@ Le tableau en question doit être sous la forme suivante :
                 'readMore'          =>  {TEXTE INVITANT À LIRE LES INSTRUCTIONS POUR LES AUTRES NAVIGATEURS},
                 'click2zoom'        =>  {TEXTE INVITANT À CLIQUER SUR LES IMAGES POUR LES AGRANDIR},
                 'alt'               =>  {TEXTE ALTERNATIF GÉNÉRAL POUR LES IMAGES},
-                'sourceC9'          =>  {TEXTE POUR LES SOURCES SUR CLOUD9}
+                'sourceC9'          =>  {TEXTE INVITANT À LIRE LES SOURCES SUR CLOUD9},
+                'sourceGithub'      =>  {TEXTE INVITANT À LIRE LES SOURCES SUR GITHUB},
+                'Dareboost'         =>  {TEXTE INVITANT À VOIR LES PERFORMANCES SUR DAREBOOST}
             ),
         {CLÉ CORRESPONDANT AU NAVIGATEUR}=>array(
                 'name'          =>  {NOM DU NAVIGATEUR},
