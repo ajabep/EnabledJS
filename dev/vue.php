@@ -231,15 +231,15 @@
                 if(isset($browserKey))
                     echo '</div></div>';
             ?>
+            </div>
         </div>
     
         <div id="footer">
-          <div class="container">
-            <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" width="80" height="15" src="http://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br>The text of EnabledJS is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>Based on a work at <a  href="http://maboite.qc.ca/activation_js.php">http://maboite.qc.ca/activation_js.php</a>.</p>
-            <p class="text-muted">Designed with <a href="http://getbootstrap.com/">Boostrap</a>. Source code under <a href="http://choosealicense.com/licenses/mit/">MIT License</a>.</p>
-          </div>
+            <div class="container">
+              <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" width="80" height="15" src="http://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br>The text of EnabledJS is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>Based on a work at <a  href="http://maboite.qc.ca/activation_js.php">http://maboite.qc.ca/activation_js.php</a>.</p>
+              <p class="text-muted">Designed with <a href="http://getbootstrap.com/">Boostrap</a>. Source code under <a href="http://choosealicense.com/licenses/mit/">MIT License</a>.</p>
+            </div>
         </div>
-    </div>
     <!--script src="//code.jquery.com/jquery.min.js" async></script>
     <script src="js/bootstrap.js" async></script-->
     <script>window.onload=function(){document.getElementById("jsShow").className+=" display"};document.getElementById("readMore").onclick=function(){var a=document.getElementById("parentReadMore");RegExp("(?:^|\\s)open(?!\\S)","g").test(a.className)?a.className=a.className.replace(/(?:^|\s)open(?!\S)/g,""):a.className+=" open"};</script>
