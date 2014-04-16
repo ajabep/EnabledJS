@@ -95,14 +95,23 @@
                         if(!($getBrowser==Browser::BROWSER_FIREFOX&&$browser->getVersion()>21)){
                         ?>
                 <div class="alert alert-warning">
-                    <strong>Votre navigateur est obsolète !</strong>
-                    <p>Vous utilisez un navigateur obsolète. Pour une meilleure expérience web et une sécurité accrue, vous devriez mettre à jour votre navigateur ou en télécharger un plus récent comme <a href="https://www.mozilla.org/firefox/new/">Firefox</a>, <a href="http://www.google.com/chrome">Chrome</a> ou <a href="http://www.apple.com/safari/download/">Safari</a>, par exemple).</p>
+                    <h3><?php echo $arrayBrowser[$languageUser]['texts']['headerObsolete']; ?></h3>
+                    <p><?php echo $arrayBrowser[$languageUser]['texts']['textObsolete']; ?></p>
                 </div>
             <?php
                     }
                 }
-                
-                // if($getBrowser==Browser::BROWSER_IE||$getBrowser==Browser::BROWSER_OPERA||$getBrowser==Browser::BROWSER_FIREFOX||$getBrowser==Browser::BROWSER_CHROME||$getBrowser==Browser::BROWSER_SAFARI||$getBrowser==Browser::BROWSER_ANDROID||$getBrowser==Browser::BROWSER_IPHONE||$getBrowser==Browser::BROWSER_IPOD||$getBrowser==Browser::BROWSER_IPAD||$getBrowser==Browser::BROWSER_NETSCAPE_NAVIGATOR){
+            ?>
+            
+            <hr class="featurette-divider">
+            
+            <h2><?php echo $arrayBrowser[$languageUser]['texts']['headerWhy']; ?></h2>
+            <p class="alert alert-info"><?php echo $arrayBrowser[$languageUser]['texts']['textWhy']; ?></p>
+            
+            <hr class="featurette-divider">
+            
+            <h2><?php echo $arrayBrowser[$languageUser]['texts']['headerWho']; ?></h2>
+            <?php
                 if($getBrowser==Browser::BROWSER_FIREFOX||$getBrowser==Browser::BROWSER_CHROME||$getBrowser==Browser::BROWSER_ANDROID||$getBrowser==Browser::BROWSER_IPHONE||$getBrowser==Browser::BROWSER_IPOD||$getBrowser==Browser::BROWSER_IPAD||$getBrowser==Browser::BROWSER_POCKET_IE||$getBrowser==Browser::BROWSER_BLACKBERRY||$getBrowser==Browser::BROWSER_SAFARI||$getBrowser==Browser::BROWSER_OPERA||$getBrowser==Browser::BROWSER_NETSCAPE_NAVIGATOR||$getBrowser==Browser::BROWSER_IE||$getBrowser==Browser::BROWSER_KONQUEROR){
                 /*        if($getBrowser==Browser::BROWSER_IE){
                             if($browser->getVersion()==6)
@@ -220,7 +229,7 @@
                     <?php
                 }
                 if(isset($browserKey))
-                    echo '</div></div></div>';
+                    echo '</div></div>';
             ?>
         </div>
     

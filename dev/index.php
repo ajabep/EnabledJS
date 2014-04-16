@@ -27,7 +27,12 @@ $arrayBrowser=array(
                         'alt'               =>  'illustration',
                         'sourceC9'          =>  'Sources sur Cloud9',
                         'sourceGithub'      =>  'Sources sur Github',
-                        'Dareboost'         =>  'Voir les performances'
+                        'Dareboost'         =>  'Voir les performances',
+                        'headerObsolete'    =>  'Votre navigateur est obsolète !',
+                        'textObsolete'      =>  'Vous utilisez un navigateur obsolète. Pour une meilleure expérience web et une sécurité accrue, vous devriez mettre à jour votre navigateur ou en télécharger un plus récent comme <a href="https://www.mozilla.org/firefox/new/">Firefox</a>, <a href="http://www.google.com/chrome">Chrome</a> ou <a href="http://www.apple.com/safari/download/">Safari</a>, par exemple).',
+                        'headerWhy'         =>  'Pourquoi activer le support du JavaScript ?',
+                        'textWhy'           =>  'Le JavaScript (souvent abrégé JS) est un langage de programmation de scripts côté client, en complément du langage <abbr title="Hypertext Markup Language">HTML</abbr>. A l\'aide de la méthode <abbr title="Asynchronous Javascript And XML">AJAX</abbr>, il permet de faire des pages qui se mettent à jour sans se recharger entièrement pour des sites plus fluides et plus écologique.<br>Décrié, ce langage est néanmoins une technologie beaucoup moins énergivore que son concurrent l\'Adobe Flash. Pris en compte par tous les navigateurs, c\'est un langage <em>Open Source</em> d\'avenir. L\'activer peut vous aider à avoir un meuilleur visuel d\'un site, ainsi qu\'une meuilleur intéraction.',
+                        'headerWho'         =>  'Comment l\'activer ?'
                     ),
                 Browser::BROWSER_FIREFOX.'a22'=>array( // a22 = after 22
                         'name'          =>  'Firefox',
