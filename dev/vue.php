@@ -146,7 +146,7 @@
                                 echo 'col-md-7';
                             echo '">';
                             ?>
-                            <h2 class="featurette-heading <?php echo $browserKey; ?>"><?php echo $browserDatas['name'].((is_null($browserDatas['note']))?'':' <span class="text-muted">'.$browserDatas['note'].'</span>'); ?></h2>
+                            <h3 class="h2 featurette-heading <?php echo $browserKey; ?>"><?php echo $browserDatas['name'].((is_null($browserDatas['note']))?'':' <span class="text-muted">'.$browserDatas['note'].'</span>'); ?></h3>
                             <ul class="lead"><?php
                                 foreach($browserDatas['instructions'] as $instruction){
                                     echo '<li>'.$instruction.'</li>';
@@ -197,7 +197,7 @@
                                 echo 'col-md-7';
                             echo '">';
                             ?>
-                            <h2 class="featurette-heading <?php echo $browserID; ?>"><?php echo $browserDatas['name'].((is_null($browserDatas['note']))?'':' <span class="text-muted">'.$browserDatas['note'].'</span>'); ?></h2>
+                            <h3 class="h2 featurette-heading <?php echo $browserID; ?>"><?php echo $browserDatas['name'].((is_null($browserDatas['note']))?'':' <span class="text-muted">'.$browserDatas['note'].'</span>'); ?></h3>
                             <ul class="lead"><?php
                                 foreach($browserDatas['instructions'] as $instruction){
                                     echo '<li>'.$instruction.'</li>';
