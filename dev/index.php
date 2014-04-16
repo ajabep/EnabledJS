@@ -41,7 +41,7 @@ $arrayBrowser=array(
                         'instructions'  =>  array(
                                                     'Ouvrez Firefox.',
                                                     'Tapez "about:config" dans la barre d\'adresse de Firefox.',
-                                                    'Sur la page de mise en garde qui s\'affiche, cliquez sur "Je ferai attention, promis!".',
+                                                    'Sur la page de mise en garde qui s\'affiche, cliquez sur "Je ferai attention, promis !".',
                                                     'Dans le champ de recherche en haut de la page qui ouvre, tapez : "javascript.enabled".',
                                                     'Passez la valeur de l\'option à true (en double-cliquant) pour activer JavaScript.'
                                             ),
