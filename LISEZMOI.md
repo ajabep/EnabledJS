@@ -8,7 +8,7 @@ Entièrement personnalisable, il est facile de rajouter une langue, un navigateu
 
 ## Licences ##
 
-Le contenu de la page est mis à disposition selon les termes de la [Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr).<br>
+Le contenu de la page est mis à disposition selon les termes de la [Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr).
 Fondé(e) sur une œuvre à http://maboite.qc.ca/activation_js.php.
 
 Le code source est mis à disposition les termes de la [licence MIT](http://choosealicense.com/licenses/mit/).
@@ -56,7 +56,12 @@ Le tableau en question doit être sous la forme suivante :
                 'alt'               =>  {TEXTE ALTERNATIF GÉNÉRAL POUR LES IMAGES},
                 'sourceC9'          =>  {TEXTE INVITANT À LIRE LES SOURCES SUR CLOUD9},
                 'sourceGithub'      =>  {TEXTE INVITANT À LIRE LES SOURCES SUR GITHUB},
-                'Dareboost'         =>  {TEXTE INVITANT À VOIR LES PERFORMANCES SUR DAREBOOST}
+                'Dareboost'         =>  {TEXTE INVITANT À VOIR LES PERFORMANCES SUR DAREBOOST},
+                'headerObsolete'    =>  {TITRE DE LA BOITE D'INFO QUI SIGNALE UN NAVIGATEUR OBSOLETE}?
+                'textObsolete'      =>  {TEXTE DEMANDANT DE METTRE A JOUR LE NAVIGATEUR},
+                'headerWhy'         =>  {TITRE DE LA BOITE D'INFO EXPLIQUANT A QUOI SERT LE JAVASCRIPT},
+                'textWhy'           =>  {TEXTE EXPLIQUANT L'UTILITE DU JAVASCRIPT},
+                'headerWho'         =>  {TITRE DE LA PARTIE PRINCIPALE DE LA PAGE : COMMENT ACTIVER LE JAVASCRIPT}
             ),
         {CLÉ CORRESPONDANT AU NAVIGATEUR}=>array(
                 'name'          =>  {NOM DU NAVIGATEUR},
