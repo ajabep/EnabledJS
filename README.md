@@ -7,10 +7,10 @@ EnabledJS is a standalone system. It's a system which displays the customer how 
 
 ## Licenses ##
 
-The content of this page is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](creativecommons.org/licenses/by-nc-sa/4.0/).
+The content of this page is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 Based on a work at http://maboite.qc.ca/activation_js.php.
 
-The source code is is licensed under a [MIT License](creativecommons.org/licenses/by-nc-sa/4.0/)(http://choosealicense.com/licenses/mit/).
+The source code is is licensed under a [MIT License](http://choosealicense.com/licenses/mit/).
 
 This system is design with Bootstrap, which is licensed under a [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 This system use Browser.php to detect the browser, which is which is licensed under a [GNU GPL](https://github.com/cbschuld/Browser.php/blob/master/lib/Browser.php#L11-L22).
@@ -53,7 +53,6 @@ The array that you just created must be as follows :
                 'sourceC9'          =>  {TEXT REQUESTING TO READ THE SOURCES ON CLOUD9},
                 'sourceGithub'      =>  {TEXT REQUESTING TO READ THE SOURCES ON GITHUB},
                 'Dareboost'         =>  {TEXT REQUESTING TO SEE PERFORMANCES ON DAREBOOST},
-
                 'headerObsolete'    =>  {TITLE OF THE BOX WHICH SAID THIS BROWSER IS OBSOLETE},
                 'textObsolete'      =>  {TEXT REQUESTING TO UPDATE HIS BROWSER},
                 'headerWhy'         =>  {TITLE OF THE BOX WHICH EXPLAIN THE UTILITY OF THE JAVASCRIPT},
