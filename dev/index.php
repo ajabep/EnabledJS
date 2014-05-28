@@ -191,7 +191,7 @@ $arrayBrowser=array(
                     ),
                 Browser::BROWSER_IE.'a6'=>array(
                         'name'          =>  'Internet Explorer',
-                        'note'          =>  '(versions 7, 8, 9 et 10)',
+                        'note'          =>  '(versions 7, 8, 9, 10 et 11)',
                         'instructions'  =>  array(
                                                     'Lancez Internet Explorer.',
                                                     'Dans la barre de menus, cliquez sur "Outils".',
